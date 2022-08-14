@@ -1,7 +1,7 @@
 # Swift 5 on Pinebook - Manjaro ARM
 
 ## Overview
-This is purely experimental. The Swift REPL is not working. Help is invited to get this fully functioning!
+This is purely experimental. The Swift REPL is not working. Help is invited to get this fully functioning! Also, shoutout to [Kishan Joshi](https://www.youtube.com/watch?v=BqRjHvzXSk0&t) for this tutorial!
 
 ## Installation
 
