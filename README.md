@@ -9,17 +9,14 @@ Download the most recent release here: [https://github.com/futurejones/swift-arm
 
 Extract the archive (extract it to a target folder of your choice)
 
-`cd` into `usr/bin` within the extracted directory and run the swift binary
+From the top level of the extracted dir, run the Swift bin located in the `./usr/bin` sub dir
 
-```bash
-$ ./swift
-```
-You will then be met with some errors. ex:
+You will likely be met with some errors. ex:
 ```
 /home/<you>/<extractedDir>/usr/bin/swift-driver: error while loading shared libraries: libncurses.so.6: cannot open shared object file: No such file or directory
 ```
 
-Create links for the missing object files. ex:
+Create links in the top level of the extracted dir for the missing object files. ex:
 ```bash
 ln -s /usr/lib/lib /usr/lib/libncursesw.so.6 libncurses.so.6
 ```
